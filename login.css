@@ -1,85 +1,78 @@
+/* Basic Reset */
 * {
-    backdrop-filter: blur(2px);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: Arial, sans-serif;
 }
 
 body {
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
-    overflow-y: hidden;
-    margin-bottom: 40px;
-  }
-  
-  .sign {
-    background-color: rgba(0, 0, 0, 0.966);
-    width: 400px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(236, 231, 231, 0.1);
-    text-align: center;
+    background: #f0f2f5;
+}
+
+.sign {
+    background: white;
     padding: 20px;
-    color: #ffffff;
-    box-shadow: 60px 10px 60px 0px #000000a9; 
-  }
-  
-  .title h2 {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
     text-align: center;
-    color: #ffffff;
-    border-radius: 10px;
-  }
-  
-  .sign-form {
-    margin: 20px 20px 20px 0;
-    background-color: transparent;
-  }
-  
-  label {
-    margin: 10px;
-    font-weight: bold;
-    font-size: 20px;
+}
+
+.title h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sign-form {
     display: flex;
-    justify-content: baseline;
-  }
-  
-  .form {
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.form label {
+    text-align: left;
+    color: #555;
+}
+
+.form input {
     padding: 10px;
-    
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
+    font-size: 14px;
+    width: 100%;
+}
 
-  
-  .submit button {
-    background-color: #ff0000;
-    color: #fff;
-    padding: 12px 20px;
+.form input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.submit {
+    margin-top: 10px;
+}
+
+.submit button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
     border: none;
     border-radius: 5px;
+    font-size: 16px;
     cursor: pointer;
-    margin-top: 10px;
-    font-weight: bold;
-    font-size: 15px;
-  }
-  
-  .submit button:hover {
-    background-color: #2f70b1;
-  }
-  
-  
+    transition: background 0.3s;
+}
+
+.submit button:hover {
+    background: #0056b3;
+}
