@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="style.css">
     <title>Admin</title>
     <style>
+
+        .main-content .btn-group {
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .btn-group .main-btn button {
+            display: flex;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
@@ -41,8 +51,13 @@
 
     <div class="main-content">
         <div class="btn-group">
-            <button class="btn btn-custom"><a href="student-form.html">Student Registration</a></button>
-            <button class="btn btn-custom"><a href="driver-form.html">Driver Registration</a></button>
+            <div class="main_btn">
+                <button class="btn btn-custom"><a href="admin-acess.html">Details</a></button>
+            </div>
+            <div class="btns">
+                <button class="btn btn-custom"><a href="student-form.html">Student Registration</a></button>
+                <button class="btn btn-custom"><a href="driver-form.html">Driver Registration</a></button>
+            </div>
         </div>
     </div>
 
