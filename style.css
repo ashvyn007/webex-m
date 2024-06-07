@@ -31,6 +31,10 @@ button a{
     font-weight: 600;
 }
 
+button a:hover {
+    color: #ffffff;
+}
+
 .btn-group {
     display: flex;
     gap: 20px;
