@@ -11,7 +11,7 @@
      size = 5,
      speed = 20,
      parts = new Array,
-     colors = ['#551a8b','#551a8b','#551a8b','#551a8b','#551a8b'];
+     colors = ['black','black','black','black','black'];
    var mouse = { x: 0, y: 0 };
   
   canvas.setAttribute('width',w);
