@@ -1,5 +1,4 @@
 
-  
   var w = window.innerWidth,
      h = window.innerHeight,
      canvas = document.getElementById('test'),
@@ -11,7 +10,7 @@
      size = 5,
      speed = 20,
      parts = new Array,
-     colors = ['black','black','black','black','black'];
+     colors = ['#1a332f','#1a332f','#1a332f','#1a332f','#1a332f'];
    var mouse = { x: 0, y: 0 };
   
   canvas.setAttribute('width',w);
