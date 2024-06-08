@@ -10,24 +10,45 @@
     --input-padding: 12px 15px;
     --input-font-size: 16px;
     --btn-hover-color: var(--light-color);
-
-
 }
 
 body {
-    background-color: var(--light-color);
+    background-color: var(--background-color);
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
     color: var(--secondary-color);
+    display: flex;
+
 }
 
 .form-container {
-    max-width: 800px;
+    max-width: 100%; 
+    height: 100vh;
     margin: 50px auto;
     padding: 30px;
     background-color: var(--form-bg-color);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg-img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.reg-img img {
+    width: 100%;
+    height: 600px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.form-content {
+    width: 600px;
 }
 
 .form-title {
@@ -43,7 +64,7 @@ body {
 
 .form-label {
     font-weight: 500;
-    margin-bottom: 8px;
+    /* margin-bottom: 8px; */
     display: block;
 }
 

@@ -95,7 +95,7 @@ footer .social-icons a {
 }
 
 footer .social-icons a:hover {
-    color: var(--primary-color);
+    color: var(--tertiary-color);
 }
 
 footer .footer-links a {
@@ -106,5 +106,5 @@ footer .footer-links a {
 }
 
 footer .footer-links a:hover {
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
 }
